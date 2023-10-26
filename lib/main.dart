@@ -4,8 +4,10 @@ import 'package:beamer_web/Screens/Product/products.dart';
 import 'package:beamer_web/Screens/home.dart';
 import 'package:beamer_web/Screens/profile.dart';
 import 'package:flutter/material.dart';
+import 'package:url_strategy/url_strategy.dart';
 
 void main() {
+  setPathUrlStrategy();
   runApp(const MyApp());
 }
 
